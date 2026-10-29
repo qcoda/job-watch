@@ -1,7 +1,10 @@
----
+dids:
+  - &me "did:plc:hpv6lavzgw52xpgfsv7zjqdi"
+  - &job "did:plc:bybhkdeow67zttcythrzu4p6"
+
 lists:
   - name: LBC
-    did: did:plc:hpv6lavzgw52xpgfsv7zjqdi
-    rkey: 3myz4kdouby2t
+    did: *me
+    rkey: "3myz4kdouby2t"
     entries:
-      followers: did:plc:bybhkdeow67zttcythrzu4p6
+      followers: *job
