@@ -1,0 +1,9 @@
+dids:
+  - &me "did:plc:hpv6lavzgw52xpgfsv7zjqdi"
+
+lists:
+  - name: LBC
+    did: *me
+    rkey: "3myz4kdouby2t"
+    entries:
+      followers: "did:plc:bybhkdeow67zttcythrzu4p6"
