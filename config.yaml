@@ -3,7 +3,7 @@ dids:
   - &job "did:plc:bybhkdeow67zttcythrzu4p6"
 
 lists:
-  - name: LBC
+  - name: "Followers of James O'Brien"
     did: *me
     rkey: "3myz4kdouby2t"
     entries:
